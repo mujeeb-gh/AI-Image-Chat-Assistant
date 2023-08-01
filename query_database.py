@@ -88,6 +88,7 @@ def check_existing_data(email, name, face_encoding, image_path):
         print("Error while checking existing data:", e)
         return None
 
+
 def insert_data(email, name, age, occupation, face_encoding, image_path):
     try:
         # Check if the data already exists
@@ -154,6 +155,7 @@ def main():
             "name": "Gbolahan Kayode",
             "age": 188,
             "occupation": "Billionaire",
+            
             "image_paths": ["Known_Faces/Olamide.jpg", "Known_Faces/ife_2.jpeg"]
         }
     ]
