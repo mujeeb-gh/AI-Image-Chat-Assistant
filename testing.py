@@ -22,7 +22,7 @@ def compare_faces(known_face_encoding, unknown_face_encoding):
 
 def main():
     # Load known face embedding
-    known_image_path = "Known_Faces/Tolu2.jpg"
+    known_image_path = "Known_Faces/Olamide/5f9e1656-31de-11ee-93df-dc7196b8973b.jpg"
     known_face_encoding = get_face_embeddings(known_image_path)
     if known_face_encoding is None:
         print("No face detected in the known image.")
